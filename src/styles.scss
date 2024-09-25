@@ -1,0 +1,81 @@
+@import "styles/_colors.scss";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: $background-color;
+	color: $black;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	margin: 1rem;
+	text-align: center;
+}
+
+.navbar {
+	margin: 2rem 15%;
+
+	.title {
+		display: flex;
+		padding: 0 1rem;
+
+		.name {
+			font-family: "Quicksand", sans-serif;
+			font-size: 2.8rem;
+			color: $gold;
+			font-weight: 300;
+		}
+
+		.subtitle {
+			font-family: "Roboto Condensed", sans-serif;
+			color: $light-gray;
+			font-size: 15px;
+			font-weight: 300;
+			margin-left: auto;
+			margin-top: auto;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		height: 100%;
+		color: inherit;
+	}
+
+	.nav {
+		display: block;
+		margin: 1rem 0;
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+			line-height: 1.7em;
+
+			li {
+				&.active {
+					background-color: $background-gray;
+				}
+
+				&:hover {
+					background-color: $background-gray;
+				}
+
+				a {
+					color: $black;
+					font-weight: 500;
+					font-size: 0.9em;
+					text-transform: uppercase;
+					padding: 0 18px;
+				}
+			}
+		}
+	}
+}
