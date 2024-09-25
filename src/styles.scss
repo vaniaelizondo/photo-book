@@ -9,16 +9,16 @@ body {
 	background: $background-color;
 	color: $black;
 	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-	margin: 1rem;
-	text-align: center;
+	margin: 1rem 15%;
 }
 
-.navbar {
+header {
 	margin: 2rem 15%;
 
 	.title {
@@ -34,7 +34,7 @@ body {
 
 		.subtitle {
 			font-family: "Roboto Condensed", sans-serif;
-			color: $light-gray;
+			color: $gray;
 			font-size: 15px;
 			font-weight: 300;
 			margin-left: auto;
@@ -48,7 +48,7 @@ body {
 		color: inherit;
 	}
 
-	.nav {
+	.navbar {
 		display: block;
 		margin: 1rem 0;
 
@@ -76,6 +76,44 @@ body {
 					padding: 0 18px;
 				}
 			}
+		}
+	}
+}
+
+.information {
+	margin: 1rem 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	dl {
+		width: 70%;
+		margin: 0;
+		line-height: 1.7rem;
+
+		dt,
+		dd {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+
+		dt {
+			width: 8rem;
+		}
+
+		dd {
+			margin-left: 1rem;
+			color: $light-gray;
+		}
+	}
+
+	.picture {
+		max-width: 300px;
+
+		img {
+			width: 100%;
+			height: auto;
 		}
 	}
 }
