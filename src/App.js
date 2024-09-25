@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 import Home from "./pages/Home"
 import Gallery from "./pages/Gallery"
 import CV from "./pages/CV"
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </>
   )
 }

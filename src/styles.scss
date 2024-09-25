@@ -1,4 +1,4 @@
-@import "styles/_colors.scss";
+@import "styles/_variables.scss";
 
 * {
 	box-sizing: border-box;
@@ -15,11 +15,15 @@ body {
 }
 
 .container {
-	margin: 1rem 15%;
+	margin: 1rem $margin-container-sides-web;
+}
+
+a {
+	color: $gold;
 }
 
 header {
-	margin: 2rem 15%;
+	margin: 2rem $margin-container-sides-web;
 
 	.title {
 		display: flex;
@@ -81,7 +85,7 @@ header {
 }
 
 .information {
-	margin: 1rem 10%;
+	margin: 1rem $margin-home-sides-web;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -114,6 +118,33 @@ header {
 		img {
 			width: 100%;
 			height: auto;
+		}
+	}
+}
+
+.home-text {
+	margin: 1rem $margin-home-sides-web;
+
+	p {
+		margin: 1.7rem 0;
+		line-height: 1.7rem;
+
+		a:hover,
+		a:active {
+			background-color: $background-gray;
+		}
+	}
+}
+
+footer {
+	margin: 5rem $margin-container-sides-web 2rem;
+	text-align: center;
+	font-size: 80%;
+
+	.icons {
+		img {
+			height: 30px;
+			padding: 0 0.5rem;
 		}
 	}
 }
