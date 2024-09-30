@@ -18,6 +18,17 @@ body {
 	margin: 1rem $margin-container-sides-web;
 }
 
+.button-up {
+	color: $gold;
+	position: fixed;
+	width: 100%;
+	left: 96%;
+	bottom: 0;
+	font-size: 2rem;
+	z-index: 1;
+	cursor: pointer;
+}
+
 a {
 	color: $gold;
 }
@@ -132,6 +143,34 @@ header {
 		a:hover,
 		a:active {
 			background-color: $background-gray;
+		}
+	}
+}
+
+.curriculum {
+	margin: 1rem $margin-cv-sides-web;
+
+	h3 {
+		margin-bottom: 0;
+		margin-top: 2rem;
+		font-weight: 500;
+	}
+	
+	h4 {
+		margin: 0;
+		font-weight: 300;
+		color: $gray;
+	}
+
+	ul {
+		// list-style-type: circle;
+
+		li {
+			line-height: 1.7rem;
+
+			&::marker {
+				color: $gold;
+			}
 		}
 	}
 }

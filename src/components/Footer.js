@@ -1,5 +1,5 @@
-import InstagramIcon from './images/instagram.png';
-import MailIcon from './images/email.png';
+import InstagramIcon from '../images/instagram.png';
+import MailIcon from '../images/email.png';
 
 export default function Home() {
   const now = new Date();

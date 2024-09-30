@@ -1,5 +1,6 @@
-import Navbar from "./Navbar"
-import Footer from "./Footer"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import ScrollButton from "./components/ScrollButton";
 import Home from "./pages/Home"
 import Gallery from "./pages/Gallery"
 import CV from "./pages/CV"
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <ScrollButton />
       <Footer />
     </>
   )
