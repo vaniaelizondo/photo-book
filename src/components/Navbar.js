@@ -12,7 +12,7 @@ export default function Navbar() {
 			<nav className="navbar">
 				<ul>
 					<CustomLink to="/">Accueil</CustomLink>
-					<CustomLink to="/galeries">Galeries</CustomLink>
+					<CustomLink to="/gallery">Galeries</CustomLink>
 					<CustomLink to="/cv">Curriculum</CustomLink>
 					<CustomLink to="/contact">Contact</CustomLink>
 				</ul>

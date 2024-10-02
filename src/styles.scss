@@ -147,6 +147,78 @@ header {
 	}
 }
 
+.album-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.album-container {
+	width: 100%;
+	text-align: center;
+
+	h2 {
+		font-size: 18px;
+		margin: 10px 0;
+	}
+}
+
+.sub-album-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	padding: 10px;
+}
+
+.photo-container {
+	position: relative;
+
+	img {
+		width: 100%;
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
+	}
+}
+
+.caption {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.photo-detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.photo-wrapper {
+	width: 100%;
+	max-width: 600px;
+	/* Limit the width for large images */
+}
+
+.large-photo {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.caption {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.back-link {
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: blue;
+}
+
 .curriculum {
 	margin: 1rem $margin-cv-sides-web;
 
@@ -155,7 +227,7 @@ header {
 		margin-top: 2rem;
 		font-weight: 500;
 	}
-	
+
 	h4 {
 		margin: 0;
 		font-weight: 300;

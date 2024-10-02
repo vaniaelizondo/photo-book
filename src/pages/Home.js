@@ -1,5 +1,3 @@
-import profile from "../images/home.jpeg";
-
 export default function Home() {
 	return (
 		<>
@@ -47,7 +45,7 @@ export default function Home() {
 					</div>
 				</dl>
 				<div className="picture">
-					<img src={profile} alt="Heloise Profile" />
+					<img src="/images/home.jpeg" alt="Heloise Profile" />
 				</div>
 			</div>
 			<div className="home-text">
