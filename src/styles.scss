@@ -258,6 +258,10 @@ form.contact {
 		label {
 			flex: 0 0 6rem;
 			text-align: right;
+
+			&.error {
+				color: $red;
+			}
 		}
 
 		input,
@@ -275,13 +279,9 @@ form.contact {
 				background: $light-gray-2;
 			}
 
-			// &:required:invalid {
-			// 	border-color: $red;
-
-			// 	~label {
-			// 		color: $red;
-			// 	}
-			// }
+			&.error {
+				border-color: $red;
+			}
 		}
 
 		textarea {
@@ -312,14 +312,9 @@ form.contact {
 	}
 
 	.invalid-form {
-		display: none;
 		color: $red;
 		text-align: center;
 	}
-
-	// &:invalid .invalid-form {
-	// 	display: block;
-	// }
 }
 
 footer {

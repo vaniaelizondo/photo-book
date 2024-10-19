@@ -3,6 +3,34 @@ import { useState } from "react";
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
+  const [formInvalid, setFormInvalid] = useState(false); 
+
+  const validateForm = (event) => {
+    event.persist();
+    event.preventDefault();
+    let allValid = true;
+    
+    const requiredInputs = document.querySelectorAll('input[required], textarea[required]');
+    requiredInputs.forEach(input => {
+      const inputId = input.getAttribute('id');
+      const label = document.querySelector(`label[for="${inputId}"]`);
+
+      if (!input.value) {
+        input.classList.add('error');
+        label.classList.add('error');
+        allValid = false;
+      } else {
+        input.classList.remove('error');
+        label.classList.remove('error');
+      }
+    });
+
+    setFormInvalid(!allValid);
+
+    if (allValid) {
+      sendEmail(event);
+    }
+  };
 
   const sendEmail = async (event) => {
     event.persist();
@@ -40,37 +68,37 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={sendEmail} className="contact">
-      <p className="invalid-form">Please fill out the required fields.</p>
-      <div class="form-group">
+    <form onSubmit={validateForm} className="contact" noValidate>
+      {formInvalid && <p className="invalid-form">Please fill out the required fields.</p>}
+      <div className="form-group">
         <label for="name">Nom</label>
-        <input type="text" name="name" required />
+        <input type="text" name="name" id="name" required />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="company">Société</label>
-        <input type="text" name="company" />
+        <input type="text" name="company" id="company" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="email">Email</label>
-        <input type="email" name="email" required />
+        <input type="email" name="email" id="email" required />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="website">Site web</label>
-        <input type="text" name="website" />
+        <input type="text" name="website" id="website" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="phone">Téléphone</label>
-        <input type="number" name="phone" />
+        <input type="number" name="phone" id="phone" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="message">Message</label>
-        <textarea name="message" rows="3" required></textarea>
+        <textarea name="message" id="message" rows="3" required></textarea>
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="submit"></label>
         <button type="submit" disabled={isSubmitting}>Envoyer</button>
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label for="status"></label>
         {stateMessage && <p>{stateMessage}</p>}
       </div>
