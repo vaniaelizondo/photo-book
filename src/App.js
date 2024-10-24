@@ -86,6 +86,92 @@ const albums = [
         id: 6,
         src: "/images/album-3/image-6.jpeg",
       },
+      {
+        id: 7,
+        src: "/images/album-3/image-7.jpeg",
+      },
+      {
+        id: 8,
+        src: "/images/album-3/image-8.jpeg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Book",
+    photos: [
+      {
+        id: 1,
+        src: "/images/album-2/image-4.jpeg",
+      },
+      {
+        id: 2,
+        src: "/images/album-2/image-1.jpeg",
+      },
+      {
+        id: 3,
+        src: "/images/album-2/image-3.jpeg",
+      },
+      {
+        id: 4,
+        src: "/images/album-2/image-4.jpeg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Corporate",
+    photos: [
+      {
+        id: 1,
+        src: "/images/album-1/image-4.jpeg",
+      },
+      {
+        id: 2,
+        src: "/images/album-1/image-2.jpeg",
+      },
+      {
+        id: 3,
+        src: "/images/album-1/image-3.jpeg",
+      },
+      {
+        id: 4,
+        src: "/images/album-1/image-4.jpeg",
+      },
+      {
+        id: 5,
+        src: "/images/album-1/image-5.jpeg",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Lingerie",
+    photos: [
+      {
+        id: 1,
+        src: "/images/album-3/image-2.jpeg",
+      },
+      {
+        id: 2,
+        src: "/images/album-3/image-1.jpeg",
+      },
+      {
+        id: 3,
+        src: "/images/album-3/image-3.jpeg",
+      },
+      {
+        id: 4,
+        src: "/images/album-3/image-4.jpeg",
+      },
+      {
+        id: 5,
+        src: "/images/album-3/image-5.jpeg",
+      },
+      {
+        id: 6,
+        src: "/images/album-3/image-6.jpeg",
+      },
     ],
   },
 ];
