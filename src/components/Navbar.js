@@ -7,7 +7,7 @@ export default function Navbar() {
 				<Link to="/" className="name">
 					Héloïse Baland
 				</Link>
-				<div className="subtitle">Mannequin à Nice</div>
+				<div className="subtitle">Mannequin international</div>
 			</div>
 			<nav className="navbar">
 				<ul>
