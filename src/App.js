@@ -94,6 +94,46 @@ const albums = [
         id: 8,
         src: "/images/album-3/image-8.jpeg",
       },
+      {
+        id: 9,
+        src: "/images/album-3/image-1.jpeg",
+      },
+      {
+        id: 10,
+        src: "/images/album-3/image-2.jpeg",
+      },
+      {
+        id: 11,
+        src: "/images/album-3/image-1.jpeg",
+      },
+      {
+        id: 12,
+        src: "/images/album-3/image-2.jpeg",
+      },
+      {
+        id: 13,
+        src: "/images/album-3/image-3.jpeg",
+      },
+      {
+        id: 14,
+        src: "/images/album-3/image-4.jpeg",
+      },
+      {
+        id: 15,
+        src: "/images/album-3/image-5.jpeg",
+      },
+      {
+        id: 16,
+        src: "/images/album-3/image-6.jpeg",
+      },
+      {
+        id: 17,
+        src: "/images/album-3/image-7.jpeg",
+      },
+      {
+        id: 18,
+        src: "/images/album-3/image-8.jpeg",
+      },
     ],
   },
   {
