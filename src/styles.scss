@@ -161,7 +161,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 1rem;
+  padding: 1rem 3rem;
 
   .gallery-item {
     position: relative;
@@ -200,7 +200,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding-bottom: 2rem;
 
   h2 {
     margin: 0;
@@ -217,43 +217,8 @@ header {
   }
 }
 
-.album-grid {
-  width: fit-content;
-
-  .album-item {
-    display: inline-block;
-    margin: 0.5rem;
-    
-    img {
-      width: 100%;
-      height: 180px;
-    }
-  }
-}
-
-.photo-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-
-  .photo-wrapper {
-    width: 100%;
-    max-width: 600px;
-
-    .large-photo {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-  }
-
-  .back-link {
-    margin-top: 20px;
-    text-decoration: none;
-    font-size: 18px;
-    color: blue;
-  }
+.album-container {
+  padding: 0 3rem;
 }
 
 .curriculum {

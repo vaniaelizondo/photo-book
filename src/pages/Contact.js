@@ -96,10 +96,10 @@ const Contact = () => {
       </div>
       <div className="form-group">
         <label for="submit"></label>
-        <button type="submit" disabled={isSubmitting}>Envoyer</button>
+        <button type="submit" id="submit" disabled={isSubmitting}>Envoyer</button>
       </div>
       <div className="form-group">
-        <label for="status"></label>
+        <label></label>
         {stateMessage && <p>{stateMessage}</p>}
       </div>
     </form>
