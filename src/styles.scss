@@ -218,7 +218,7 @@ header {
 }
 
 .album-container {
-  padding: 0 3rem;
+  padding: 0 $margin-album-sides-web;
 }
 
 .curriculum {
@@ -329,5 +329,79 @@ footer {
       height: 30px;
       padding: 0 0.5rem;
     }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  header {
+    margin: 1rem $margin-container-sides-mobile;
+  }
+
+  .container {
+    margin: 1rem $margin-container-sides-mobile;
+  }
+
+  .information {
+    margin: 1rem $margin-home-sides-mobile;
+    display: block;
+  }
+
+  .home-text {
+    margin: 1rem $margin-home-sides-mobile;
+  }
+
+  .gallery-grid {
+    padding: 1rem;
+  }
+
+  .curriculum {
+    margin: 1rem $margin-cv-sides-mobile;
+  }
+
+  form.contact {
+    margin: 1rem $margin-contact-sides-mobile;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  header {
+    .title {
+      display: block;
+      padding: 0;
+
+      .name {
+        font-size: 1.5rem;
+      }
+    }
+
+    .navbar {
+      ul {
+        line-height: 18px;
+
+        li a {
+          line-height: 18px;
+          font-size: 11px;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+  .gallery-grid {
+    display: block;
+
+    .gallery-item {
+      padding-bottom: 2rem;
+    }
+  }
+
+  .album-container {
+    padding: 0 $margin-album-sides-mobile;
+  }
+
+  footer {
+    margin: 5rem $margin-container-sides-mobile 2rem;
   }
 }
