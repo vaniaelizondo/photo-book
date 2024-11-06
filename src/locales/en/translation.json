@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "subtitle": "International model",
+    "home": "Home",
+    "gallery": "Galleries",
+    "cv": "Curriculum",
+    "contact": "Contact"
+  },
+  "home": {
+    "height": "Height",
+    "height_value": "181 cm",
+    "chest": "Poitrine",
+    "chest_value": "90 cm",
+    "waist": "Taille",
+    "waist_value": "70 cm",
+    "hips": "Hanches",
+    "hips_value": "98 cm",
+    "size": "Confection",
+    "size_value": "36",
+    "shoes": "Pointure",
+    "shoes_value": "38",
+    "eyes": "Yeux",
+    "eyes_value": "Marron",
+    "hair": "Cheveux",
+    "hair_value": "Marron",
+    "tattoos": "Tatouages",
+    "tattoos_value": "2 discrets",
+    "piercings": "Piercings",
+    "piercings_value": "Oreilles, langue, nombril",
+    "title": "Model / Advertising actress",
+    "paragraph_1": "Je suis basée à Nice, j'ai un pied à terre à Perpignan, je me éplace partout en France (Carte TGV) n'hésitez pas à me contacter afin que l'on puisse discuter ensemble de votre projet.J'étudie toutes les propositions sérieuses et rémunérées. Je suis disponible pour Campagne publicitaire, Catalogue, Clip, Détails mains/corps, Éditorial, E-shop, Figuration, Lookbook.",
+    "paragraph_2": "Langues parlées : Français, Spagnol, Anglais",
+    "paragraph_3": "Agences: Enjoymodels, Elever 1 (Mexique)",
+    "paragraph_4": "Au plaisir de travailler ensemble ✨",
+    "contact": "Contact",
+    "mail_subject": "J'ai%20vu%20ton%20site%20internet&body=Bonjour!%0D%0A%0D%0AJ'ai%20vu%20ton%20site%20internet%20et%20j'aimerais%20me%20connecter%20avec%20vous."
+  },
+  "footer": {
+    "mail_subject": "J'ai%20vu%20ton%20site%20internet&body=Bonjour!%0D%0A%0D%0AJ'ai%20vu%20ton%20site%20internet%20et%20j'aimerais%20me%20connecter%20avec%20vous."
+  }
+}
