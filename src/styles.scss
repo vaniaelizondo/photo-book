@@ -22,7 +22,7 @@ body {
   color: $gold;
   position: fixed;
   width: 100%;
-  left: 96%;
+  left: 93%;
   bottom: 0;
   font-size: 2rem;
   z-index: 1;
@@ -298,12 +298,12 @@ form.contact {
 
     button {
       margin-left: 1rem;
-      align-self: flex-start;
       background-color: transparent;
       border: 1px solid $light-gray-3;
       cursor: pointer;
       line-height: 18px;
       padding: 1px 6px;
+      color: $black;
 
       &:hover,
       &:focus {
@@ -332,6 +332,13 @@ footer {
   }
 }
 
+// Large devices (monitors, 992px and up)
+@media (max-width: 992px) {
+  .information .picture {
+    max-width: 200px;
+  }
+}
+
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   header {
@@ -344,7 +351,10 @@ footer {
 
   .information {
     margin: 1rem $margin-home-sides-mobile;
-    display: block;
+
+    dl {
+      width: 100%;
+    }
   }
 
   .home-text {
@@ -353,6 +363,10 @@ footer {
 
   .gallery-grid {
     padding: 1rem;
+  }
+
+  .navigation-bar {
+    padding-top: 1rem;
   }
 
   .curriculum {
@@ -389,6 +403,16 @@ footer {
     }
   }
 
+  .information {
+    flex-direction: column;
+
+    .picture {
+      order: -1;
+      max-width: fit-content;
+      margin-bottom: 1rem;
+    }
+  }
+
   .gallery-grid {
     display: block;
 
@@ -401,7 +425,48 @@ footer {
     padding: 0 $margin-album-sides-mobile;
   }
 
+  form.contact .form-group {
+    display: block;
+
+    label,
+    input {
+      display: block;
+      text-align: left;
+    }
+
+    input,
+    textarea {
+      margin: 0;
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    p {
+      margin: 0;
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    &.form-group-submit {
+      display: flex;
+      justify-content: center;
+
+      label {
+        display: none;
+      }
+
+      button {
+        margin: 0;
+      }
+    }
+  }
+
   footer {
     margin: 5rem $margin-container-sides-mobile 2rem;
+  }
+
+  .button-up {
+    left: 90%;
+    bottom: 1%;
   }
 }

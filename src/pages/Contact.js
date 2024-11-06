@@ -38,7 +38,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "6aae9f71-6f40-4add-a282-1b6f07ad7066");
+    formData.append("access_key", "f6a27903-14c0-4e8e-8472-49b33588d27f");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -94,7 +94,7 @@ const Contact = () => {
         <label for="message">Message</label>
         <textarea name="message" id="message" rows="3" required></textarea>
       </div>
-      <div className="form-group">
+      <div className="form-group form-group-submit">
         <label for="submit"></label>
         <button type="submit" id="submit" disabled={isSubmitting}>Envoyer</button>
       </div>
