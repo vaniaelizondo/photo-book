@@ -7,11 +7,12 @@ import Album from "./pages/Album";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router-dom";
+import i18n from './i18n';
 
 const albums = [
   {
     id: 1,
-    title: "Polas",
+    title: i18n.t('albums.album_1'),
     photos: [
       {
         id: 1,
@@ -57,7 +58,7 @@ const albums = [
   },
   {
     id: 2,
-    title: "Fashion",
+    title: i18n.t('albums.album_2'),
     photos: [
       {
         id: 1,
@@ -79,7 +80,7 @@ const albums = [
   },
   {
     id: 3,
-    title: "Commercial",
+    title: i18n.t('albums.album_3'),
     photos: [
       {
         id: 1,
@@ -157,7 +158,7 @@ const albums = [
   },
   {
     id: 4,
-    title: "Book",
+    title: i18n.t('albums.album_4'),
     photos: [
       {
         id: 1,
@@ -179,7 +180,7 @@ const albums = [
   },
   {
     id: 5,
-    title: "Corporate",
+    title: i18n.t('albums.album_5'),
     photos: [
       {
         id: 1,
@@ -205,7 +206,7 @@ const albums = [
   },
   {
     id: 6,
-    title: "Lingerie",
+    title: i18n.t('albums.album_6'),
     photos: [
       {
         id: 1,

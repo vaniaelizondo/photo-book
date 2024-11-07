@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
   const [formInvalid, setFormInvalid] = useState(false); 
@@ -53,13 +55,13 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      setStateMessage("Message sent!");
+      setStateMessage(t('contact.success_message'));
       setIsSubmitting(false);
       setTimeout(() => {
         setStateMessage(null);
       }, 5000);
     } else {
-      setStateMessage("Something went wrong, please try again later");
+      setStateMessage(t('contact.error_message'));
       setIsSubmitting(false);
       setTimeout(() => {
         setStateMessage(null);
@@ -69,34 +71,34 @@ const Contact = () => {
 
   return (
     <form onSubmit={validateForm} className="contact" noValidate>
-      {formInvalid && <p className="invalid-form">Please fill out the required fields.</p>}
+      {formInvalid && <p className="invalid-form">{t('contact.invalid_form')}</p>}
       <div className="form-group">
-        <label for="name">Nom</label>
+        <label for="name">{t('contact.name')}</label>
         <input type="text" name="name" id="name" required />
       </div>
       <div className="form-group">
-        <label for="company">Société</label>
+        <label for="company">{t('contact.company')}</label>
         <input type="text" name="company" id="company" />
       </div>
       <div className="form-group">
-        <label for="email">Email</label>
+        <label for="email">{t('contact.email')}</label>
         <input type="email" name="email" id="email" required />
       </div>
       <div className="form-group">
-        <label for="website">Site web</label>
+        <label for="website">{t('contact.website')}</label>
         <input type="text" name="website" id="website" />
       </div>
       <div className="form-group">
-        <label for="phone">Téléphone</label>
+        <label for="phone">{t('contact.phone')}</label>
         <input type="number" name="phone" id="phone" />
       </div>
       <div className="form-group">
-        <label for="message">Message</label>
+        <label for="message">{t('contact.message')}</label>
         <textarea name="message" id="message" rows="3" required></textarea>
       </div>
       <div className="form-group form-group-submit">
         <label for="submit"></label>
-        <button type="submit" id="submit" disabled={isSubmitting}>Envoyer</button>
+        <button type="submit" id="submit" disabled={isSubmitting}>{t('contact.submit')}</button>
       </div>
       <div className="form-group">
         <label></label>

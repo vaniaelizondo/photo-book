@@ -1,89 +1,93 @@
+import { useTranslation } from "react-i18next";
+
 export default function CV() {
+  const { t } = useTranslation();
+
   return (
     <div className="curriculum">
       <h3>2014</h3>
-      <h4>Aix en Provence</h4>
+      <h4>{t('cv.2014_location')}</h4>
       <ul>
-        <li>Défilé Handi fashion passion Aix en Provence </li>
-        <li>Défilé Handifashion Aubagne</li>
-        <li>Shooting Angelo photographe </li>
-        <li>Shooting Ezra créatrice </li>
-        <li>Shooting Sarah Fafet </li>
-        <li>Octobre 2014: formation devenir mannequin </li>
-        <li>Campagne maquillage permanent Karen </li>
-        <li>Campagne produits coiffure </li>
+        <li>{t('cv.2014_1')}</li>
+        <li>{t('cv.2014_2')}</li>
+        <li>{t('cv.2014_3')}</li>
+        <li>{t('cv.2014_4')}</li>
+        <li>{t('cv.2014_5')}</li>
+        <li>{t('cv.2014_6')}</li>
+        <li>{t('cv.2014_7')}</li>
+        <li>{t('cv.2014_8')}</li>
       </ul>
 
-      <h3>2015 </h3>
+      <h3>2015</h3>
       <ul>
-        <li>Défilé la perle dorée Marseille </li>
-        <li>1ere dauphine Miss Conflent</li>
-        <li>Participation Miss Roussillon </li>
-        <li>Défilé Marseille </li>
-        <li>Défilé Boconcept</li>
-        <li>Look & Style 66</li>
+        <li>{t('cv.2015_1')}</li>
+        <li>{t('cv.2015_2')}</li>
+        <li>{t('cv.2015_3')}</li>
+        <li>{t('cv.2015_4')}</li>
+        <li>{t('cv.2015_5')}</li>
+        <li>{t('cv.2015_6')}</li>
       </ul>
 
       <h3>2016</h3>
       <ul>
-        <li>Agence onway Portugal </li>
-        <li>Shooting Arnaud Rizon</li>
+        <li>{t('cv.2016_1')}</li>
+        <li>{t('cv.2016_2')}</li>
       </ul>
 
       <h3>2018</h3>
-      <h4>Mexique</h4>
+      <h4>{t('cv.2018_location')}</h4>
       <ul>
-        <li>Agence Hygge Models Puebla </li>
-        <li>Formation IMTA </li>
-        <li>Défilé école de mode </li>
-        <li>Modèle pour école de photographie </li>
+        <li>{t('cv.2018_1')}</li>
+        <li>{t('cv.2018_2')}</li>
+        <li>{t('cv.2018_3')}</li>
+        <li>{t('cv.2018_4')}</li>
       </ul>
 
-      <h3>2019 </h3>
+      <h3>2019</h3>
       <ul>
-        <li>Campagne Nero Store Puebla </li>
-        <li>Shooting Greygarden Cholula </li>
-        <li>Shooting Andrea Golzarri</li>
-        <li>Expotuboda</li>
-        <li>Défilé Adolfo Dominguez </li>
+        <li>{t('cv.2019_1')}</li>
+        <li>{t('cv.2019_2')}</li>
+        <li>{t('cv.2019_3')}</li>
+        <li>{t('cv.2019_4')}</li>
+        <li>{t('cv.2019_5')}</li>
       </ul>
 
       <h3>2021</h3>
-      <h4>France</h4>
+      <h4>{t('cv.2021_location')}</h4>
       <ul>
-        <li>Shooting Laura Benvenuti Perpignan </li>
+        <li>{t('cv.2021_1')}</li>
       </ul>
 
       <h3>2022 </h3>
       <ul>
-        <li>Modèle pour workshop Laura Benvenuti</li>
-        <li>KISS & Dye hôtel roi rene Aix en Provence </li>
-        <li>Printemps des créateurs Nice hôtel </li>
-        <li>Défilé Voguesbeach Les pilotis Leucate</li>
-        <li>Collaboration avec école FAM projet maquillage </li>
-        <li>Mister Universel </li>
-        <li>Salon du mariage Nice </li>
+        <li>{t('cv.2022_1')}</li>
+        <li>{t('cv.2022_2')}</li>
+        <li>{t('cv.2022_3')}</li>
+        <li>{t('cv.2022_4')}</li>
+        <li>{t('cv.2022_5')}</li>
+        <li>{t('cv.2022_6')}</li>
+        <li>{t('cv.2022_7')}</li>
       </ul>
 
       <h3>2023</h3>
       <ul>
-        <li>Shooting Pin UP Marc Cheruy</li>
-        <li>Salon du mariage Menton </li>
-        <li>Printemps des créateurs Nice 109</li>
-        <li>Shooting K-Event for Runway Atelier </li>
-        <li>Défilé Biot </li>
-        <li>Its Reichart </li>
-        <li>Shooting under-water</li>
-        <li>Vidéo drone à la surface de l’eau </li>
-        <li>Shooting studio test Vincent ombre lumieres</li>
+        <li>{t('cv.2023_1')}</li>
+        <li>{t('cv.2023_2')}</li>
+        <li>{t('cv.2023_3')}</li>
+        <li>{t('cv.2023_4')}</li>
+        <li>{t('cv.2023_5')}</li>
+        <li>{t('cv.2023_6')}</li>
+        <li>{t('cv.2023_7')}</li>
+        <li>{t('cv.2023_8')}</li>
+        <li>{t('cv.2023_9')}</li>
       </ul>
 
       <h3>2024</h3>
       <ul>
-        <li>Défilé école FAM</li>
-        <li>Shooting studio test Vincent fond noir</li>
-        <li>Play Azur projet maquillage Médusa avec Marc Cheruy </li>
-        <li>Défilé Monopole à Cannes</li>
+        <li>{t('cv.2024_1')}</li>
+        <li>{t('cv.2024_2')}</li>
+        <li>{t('cv.2024_3')}</li>
+        <li>{t('cv.2024_4')}</li>
       </ul>
     </div>
   );

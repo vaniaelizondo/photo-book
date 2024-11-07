@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 export default function Home() {
+  const { t } = useTranslation();
   const now = new Date();
   const year = now.getFullYear();
 
@@ -8,7 +11,7 @@ export default function Home() {
         <a href="https://www.instagram.com/heloise_bld/" target='_blank' rel="noreferrer">
           <img src='/images/logos/instagram.png' alt="Instagram" />
         </a>
-        <a href="mailto:heloisebld.pro@gmail.com?subject=J'ai%20vu%20ton%20site%20internet&body=Bonjour!%0D%0A%0D%0AJ'ai%20vu%20ton%20site%20internet%20et%20j'aimerais%20me%20connecter%20avec%20vous.">
+        <a href={"mailto:heloisebld.pro@gmail.com?subject=" + t("footer.mail_subject")}>
           <img src='/images/logos/email.png' alt="Mail" />
         </a>
       </div>
