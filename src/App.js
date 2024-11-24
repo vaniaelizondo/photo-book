@@ -7,12 +7,11 @@ import Album from "./pages/Album";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router-dom";
-import i18n from './i18n';
 
 const albums = [
   {
     id: 1,
-    title: i18n.t('albums.album_1'),
+    title: 'Edito',
     photos: [
       {
         id: 1,
@@ -58,7 +57,7 @@ const albums = [
   },
   {
     id: 2,
-    title: i18n.t('albums.album_2'),
+    title: 'Fashion Show',
     photos: [
       {
         id: 1,
@@ -80,7 +79,7 @@ const albums = [
   },
   {
     id: 3,
-    title: i18n.t('albums.album_3'),
+    title: 'Polas',
     photos: [
       {
         id: 1,
@@ -158,7 +157,7 @@ const albums = [
   },
   {
     id: 4,
-    title: i18n.t('albums.album_4'),
+    title: 'Publication',
     photos: [
       {
         id: 1,
@@ -180,7 +179,7 @@ const albums = [
   },
   {
     id: 5,
-    title: i18n.t('albums.album_5'),
+    title: 'Videos',
     photos: [
       {
         id: 1,
@@ -201,36 +200,6 @@ const albums = [
       {
         id: 5,
         src: "/images/album-1/image-5.jpeg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: i18n.t('albums.album_6'),
-    photos: [
-      {
-        id: 1,
-        src: "/images/album-3/image-2.jpeg",
-      },
-      {
-        id: 2,
-        src: "/images/album-3/image-1.jpeg",
-      },
-      {
-        id: 3,
-        src: "/images/album-3/image-3.jpeg",
-      },
-      {
-        id: 4,
-        src: "/images/album-3/image-4.jpeg",
-      },
-      {
-        id: 5,
-        src: "/images/album-3/image-5.jpeg",
-      },
-      {
-        id: 6,
-        src: "/images/album-3/image-6.jpeg",
       },
     ],
   },

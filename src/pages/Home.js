@@ -53,10 +53,28 @@ export default function Home() {
         </div>
       </div>
       <div className="home-text">
-        <p>{t("home.title")}</p>
+        <h1>{t("home.title")}</h1>
         <p>{t("home.paragraph_1")}</p>
+        <h2>{t("home.competences")}</h2>
+        <h3>{t("home.list_1_title")}</h3>
+        <ul>
+          <li>{t("home.list_1_text_1")}</li>
+          <li>{t("home.list_1_text_2")}</li>
+          <li>{t("home.list_1_text_3")}</li>
+          <li>{t("home.list_1_text_4")}</li>
+          <li>{t("home.list_1_text_5")}</li>
+          <li>{t("home.list_1_text_6")}</li>
+          <li>{t("home.list_1_text_7")}</li>
+        </ul>
+        <h3>{t("home.list_2_title")}</h3>
+        <ul>
+          <li>{t("home.list_2_text_1")}</li>
+          <li>{t("home.list_2_text_2")}</li>
+          <li>{t("home.list_2_text_3")}</li>
+        </ul>
         <p>{t("home.paragraph_2")}</p>
-        <p>{t("home.paragraph_3")}</p>
+        <p><i>{t("home.paragraph_3")}</i></p>
+        <p>{t("home.paragraph_4")} ✨</p>
         <p>
           {t("home.contact")}:{" "}
           <a
@@ -68,7 +86,6 @@ export default function Home() {
             heloisebld.pro@gmail.com
           </a>
         </p>
-        <p>{t("home.paragraph_4")} ✨</p>
         <p>Héloïse Baland</p>
       </div>
     </>
