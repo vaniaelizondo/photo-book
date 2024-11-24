@@ -23,7 +23,6 @@ export default function CV() {
 				<li>{t("cv.2023_6")}</li>
 				<li>{t("cv.2023_7")}</li>
 				<li>{t("cv.2023_8")}</li>
-				<li>{t("cv.2023_9")}</li>
 			</ul>
 
 			<h3>2022 </h3>
