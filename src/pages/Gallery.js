@@ -7,7 +7,10 @@ const Gallery = ({ albums }) => {
       {albums.map((album) => (
         <div key={album.id} className="gallery-item">
           <Link to={`/gallery/${slugify(album.title)}`}>
-            <img src={album.photos[0].src} alt={album.photos[0].caption} />
+            <img 
+              src={album.photos[0].type === 'video' ? album.photos[0].poster : album.photos[0].src} 
+              alt={album.photos[0].caption} 
+            />
             <h2 className='gallery-caption'>{album.title}</h2>
           </Link>
         </div>
