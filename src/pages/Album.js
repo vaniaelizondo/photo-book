@@ -8,6 +8,7 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import AlbumsNavigationBar from '../components/AlbumsNavigationBar';
 import { slugify } from "../utils";
+import { CircularProgress } from '@mui/material';
 
 const loadMediaWithDimensions = async (media) => {
   const promises = media.map(item => 
@@ -63,10 +64,16 @@ const Album = ({ albums }) => {
   const albumIndex = albums.findIndex((g) => slugify(g.title) === albumTitle);
   const [index, setIndex] = useState(-1);
   const [albumPhotos, setAlbumPhotos] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (albumIndex !== -1) {
-      loadMediaWithDimensions(albums[albumIndex].photos).then(setAlbumPhotos);
+      setLoading(true);
+      loadMediaWithDimensions(albums[albumIndex].photos)
+        .then(photos => {
+          setAlbumPhotos(photos);
+          setLoading(false);
+        });
     }
   }, [albumIndex]);
 
@@ -95,31 +102,42 @@ const Album = ({ albums }) => {
   return (
     <div className="album-container">
       <AlbumsNavigationBar albums={albums} albumIndex={albumIndex} />
-      {albumPhotos.length > 0 && (
-        <RowsPhotoAlbum 
-          photos={albumPhotos.map(item => ({
-            ...item,
-            src: item.type === 'video' ? (item.poster || item.src) : item.src
-          }))}
-          targetRowHeight={180} 
-          onClick={({ index }) => setIndex(index)} 
-          renderPhoto={({ photo, imageProps }) => (
-            <div style={{ position: 'relative' }}>
-              {photo.type === 'video' && (
-                <div style={{
-                  position: 'absolute',
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  color: 'white',
-                  fontSize: '2em',
-                  zIndex: 1
-                }}>▶️</div>
-              )}
-              <img {...imageProps} />
-            </div>
-          )}
-        />
+      {loading ? (
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          minHeight: '200px' 
+        }}>
+          <CircularProgress color="neutral"/>
+        </div>
+      ) : (
+        albumPhotos.length > 0 && (
+          <RowsPhotoAlbum 
+            photos={albumPhotos.map(item => ({
+              ...item,
+              src: item.type === 'video' ? (item.poster || item.src) : item.src
+            }))}
+            targetRowHeight={180} 
+            onClick={({ index }) => setIndex(index)} 
+            renderPhoto={({ photo, imageProps }) => (
+              <div style={{ position: 'relative' }}>
+                {photo.type === 'video' && (
+                  <div style={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    color: 'white',
+                    fontSize: '2em',
+                    zIndex: 1
+                  }}>▶️</div>
+                )}
+                <img {...imageProps} />
+              </div>
+            )}
+          />
+        )
       )}
       <Lightbox
         slides={slides}
