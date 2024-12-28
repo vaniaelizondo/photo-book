@@ -12,6 +12,7 @@ const albums = [
   {
     id: 1,
     title: 'Edito',
+    cover: "/images/Edito/cover.jpg",
     photos: [
       {
         id: 1,
@@ -40,6 +41,7 @@ const albums = [
       {
         id: 7,
         src: "/images/Edito/07.jpg",
+        cover: true
       },
       {
         id: 8,
@@ -94,6 +96,7 @@ const albums = [
   {
     id: 2,
     title: 'Fashion show',
+    cover: "/images/Fashion show/cover.jpg",
     photos: [
       {
         id: 1,
@@ -101,11 +104,11 @@ const albums = [
       },
       {
         id: 2,
-        src: "/images/Fashion show/02.jpg",
+        src: "/images/Fashion show/02.png",
       },
       {
         id: 3,
-        src: "/images/Fashion show/03.png",
+        src: "/images/Fashion show/03.jpg",
       },
       {
         id: 4,
@@ -164,6 +167,7 @@ const albums = [
   {
     id: 3,
     title: 'Make up',
+    cover: "/images/Make Up/cover.jpg",
     photos: [
       {
         id: 1,
@@ -246,6 +250,7 @@ const albums = [
   {
     id: 4,
     title: 'Polas',
+    cover: "/images/Polas/cover.jpg",
     photos: [
       {
         id: 1,
@@ -268,6 +273,7 @@ const albums = [
   {
     id: 5,
     title: 'Portrait',
+    cover: "/images/Portrait/cover.jpg",
     photos: [
       {
         id: 1,
@@ -313,61 +319,8 @@ const albums = [
   },
   {
     id: 6,
-    title: 'Publication',
-    photos: [
-      {
-        id: 1,
-        src: "/images/Publication/01.jpg",
-      },
-      {
-        id: 2,
-        src: "/images/Publication/02.jpg",
-      },
-      {
-        id: 3,
-        src: "/images/Publication/03.png",
-      },
-      {
-        id: 4,
-        src: "/images/Publication/04.png",
-      },
-      {
-        id: 5,
-        src: "/images/Publication/05.png",
-      },
-      {
-        id: 6,
-        src: "/images/Publication/06.png",
-      },
-      {
-        id: 7,
-        src: "/images/Publication/07.png",
-      },
-      {
-        id: 8,
-        src: "/images/Publication/08.png",
-      },
-      {
-        id: 9,
-        src: "/images/Publication/09.jpg",
-      },
-      {
-        id: 10,
-        src: "/images/Publication/10.jpg",
-      },
-      {
-        id: 11,
-        src: "/images/Publication/11.jpg",
-      },
-      {
-        id: 12,
-        src: "/images/Publication/12.png",
-      },
-    ],
-  },
-  {
-    id: 7,
     title: 'Studio',
+    cover: "/images/Studio/cover.jpeg",
     photos: [
       {
         id: 1,
@@ -564,8 +517,9 @@ const albums = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     title: 'Underwater',
+    cover: "/images/Underwater/cover.jpg",
     photos: [
       {
         id: 1,
@@ -606,8 +560,9 @@ const albums = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     title: 'Videos',
+    cover: "/images/Videos/01.jpg",
     photos: [
       {
         id: 1,

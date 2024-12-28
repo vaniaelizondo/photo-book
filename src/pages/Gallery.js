@@ -8,8 +8,8 @@ const Gallery = ({ albums }) => {
         <div key={album.id} className="gallery-item">
           <Link to={`/gallery/${slugify(album.title)}`}>
             <img 
-              src={album.photos[0].type === 'video' ? album.photos[0].poster : album.photos[0].src} 
-              alt={album.photos[0].caption} 
+              src={album.cover} 
+              alt={album.title} 
             />
             <h2 className='gallery-caption'>{album.title}</h2>
           </Link>
