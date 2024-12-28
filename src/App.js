@@ -167,7 +167,7 @@ const albums = [
   {
     id: 3,
     title: 'Make up',
-    cover: "/images/Make Up/cover.jpg",
+    cover: "/images/Make up/cover.jpg",
     photos: [
       {
         id: 1,
