@@ -41,7 +41,6 @@ const albums = [
       {
         id: 7,
         src: "/images/Edito/07.jpg",
-        cover: true
       },
       {
         id: 8,
