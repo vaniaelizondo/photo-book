@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "home": {
-    "height": "Hauter",
+    "height": "Hauteur",
     "height_value": "181 cm",
     "chest": "Poitrine",
     "chest_value": "88 cm",
@@ -42,62 +42,107 @@
     "list_2_text_1": "Clips",
     "list_2_text_2": "Figuration",
     "list_2_text_3": "Rôles dans des séries ou films",
-    "paragraph_2": "Langues parlées : Français, Spagnol, Anglais",
+    "paragraph_2": "Langues parlées : Français, Espagnol, Anglais",
     "paragraph_3": "📌 Je n'accepte pas de projets incluant de la nudité.",
     "paragraph_4": "Je suis à votre écoute pour échanger sur vos idées et donner vie à vos projets. N'hésitez pas à me contacter !",
     "contact": "Contact",
     "mail_subject": "J'ai%20vu%20ton%20site%20internet&body=Bonjour!%0D%0A%0D%0AJ'ai%20vu%20ton%20site%20internet%20et%20j'aimerais%20me%20connecter%20avec%20vous."
   },
-  "cv": {
-    "2014_location": "Aix en Provence",
-    "2014_1": "Défilé Handi fashion passion Aix en Provence",
-    "2014_2": "Défilé Handifashion Aubagne",
-    "2014_3": "Shooting Angelo photographe",
-    "2014_4": "Shooting Ezra créatrice",
-    "2014_5": "Shooting Sarah Fafet",
-    "2014_6": "Octobre 2014: formation devenir mannequin",
-    "2014_7": "Campagne maquillage permanent Karen",
-    "2014_8": "Campagne produits coiffure",
-    "2015_1": "Défilé la perle dorée Marseille",
-    "2015_2": "1ere dauphine Miss Conflent",
-    "2015_3": "Participation Miss Roussillon",
-    "2015_4": "Défilé Marseille",
-    "2015_5": "Défilé Boconcept",
-    "2015_6": "Look & Style 66",
-    "2016_1": "Agence onway Portugal ",
-    "2016_2": "Shooting Arnaud Rizon",
-    "2018_location": "Mexique",
-    "2018_1": "Agence Hygge Models Puebla",
-    "2018_2": "Formation IMTA",
-    "2018_3": "Défilé école de mode",
-    "2018_4": "Modèle pour école de photographie",
-    "2019_1": "Campagne Nero Store Puebla",
-    "2019_2": "Shooting Greygarden Cholula",
-    "2019_3": "Shooting Andrea Golzarri",
-    "2019_4": "Expotuboda",
-    "2019_5": "Défilé Adolfo Dominguez",
-    "2021_location": "France",
-    "2021_1": "Shooting Laura Benvenuti Perpignan",
-    "2022_1": "Modèle pour workshop Laura Benvenuti",
-    "2022_2": "KISS & Dye hôtel roi rene Aix en Provence",
-    "2022_3": "Printemps des créateurs Nice hôtel",
-    "2022_4": "Défilé Voguesbeach Les pilotis Leucate",
-    "2022_5": "Collaboration avec école FAM projet maquillage",
-    "2022_6": "Mister Universel",
-    "2022_7": "Salon du mariage Nice",
-    "2023_1": "Shooting Pin UP Marc Cheruy",
-    "2023_2": "Salon du mariage Menton",
-    "2023_3": "Printemps des créateurs Nice 109",
-    "2023_4": "Shooting K-Event for Runway Atelier",
-    "2023_5": "Défilé Cannes (Its Reichart)",
-    "2023_6": "Shooting under-water",
-    "2023_7": "Vidéo drone à la surface de l’eau",
-    "2023_8": "Shooting studio test Vincent ombre lumieres",
-    "2024_1": "Défilé école FAM",
-    "2024_2": "Shooting studio test Vincent fond noir",
-    "2024_3": "Play Azur projet maquillage Médusa avec Marc Cheruy",
-    "2024_4": "Défilé Monopole à Cannes"
-  },
+  "cv": [
+    {
+      "year": 2014,
+      "location": "Aix en Provence",
+      "entries": [
+        "Défilé Handi fashion passion Aix en Provence",
+        "Défilé Handifashion Aubagne",
+        "Shooting Angelo photographe",
+        "Shooting Ezra créatrice",
+        "Shooting Sarah Fafet",
+        "Octobre 2014: formation devenir mannequin",
+        "Campagne maquillage permanent Karen",
+        "Campagne produits coiffure"
+      ]
+    },
+    {
+      "year": 2015,
+      "entries": [
+        "Défilé la perle dorée Marseille",
+        "1ere dauphine Miss Conflent",
+        "Participation Miss Roussillon",
+        "Défilé Marseille",
+        "Défilé Boconcept",
+        "Look & Style 66"
+      ]
+    },
+    {
+      "year": 2016,
+      "entries": [
+        "Agence onway Portugal",
+        "Shooting Arnaud Rizon"
+      ]
+    },
+    {
+      "year": 2018,
+      "location": "Mexique",
+      "entries": [
+        "Agence Hygge Models Puebla",
+        "Formation IMTA",
+        "Défilé école de mode",
+        "Modèle pour école de photographie"
+      ]
+    },
+    {
+      "year": 2019,
+      "entries": [
+        "Campagne Nero Store Puebla",
+        "Shooting Greygarden Cholula",
+        "Shooting Andrea Golzarri",
+        "Expotuboda",
+        "Défilé Adolfo Dominguez"
+      ]
+    },
+    {
+      "year": 2021,
+      "location": "France",
+      "entries": [
+        "Shooting Laura Benvenuti Perpignan"
+      ]
+    },
+    {
+      "year": 2022,
+      "entries": [
+        "Modèle pour workshop Laura Benvenuti",
+        "KISS & Dye hôtel roi rene Aix en Provence",
+        "Printemps des créateurs Nice hôtel",
+        "Défilé Voguesbeach Les pilotis Leucate",
+        "Collaboration avec école FAM projet maquillage",
+        "Mister Universel",
+        "Salon du mariage Nice"
+      ]
+    },
+    {
+      "year": 2023,
+      "entries": [
+        "Shooting Pin UP Marc Cheruy",
+        "Salon du mariage Menton",
+        "Printemps des créateurs Nice 109",
+        "Shooting K-Event for Runway Atelier",
+        "Défilé Cannes (Its Reichart)",
+        "Shooting under-water",
+        "Vidéo drone à la surface de l’eau",
+        "Shooting studio test Vincent ombre lumieres"
+      ]
+    },
+    {
+      "year": 2024,
+      "entries": [
+        "Défilé école FAM",
+        "Shooting studio test Vincent fond noir",
+        "Play Azur projet maquillage Médusa avec Marc Cheruy",
+        "Défilé Monopole à Cannes"
+      ]
+    }
+  ],
   "contact": {
     "invalid_form": "Veuillez remplir les champs obligatoires.",
     "name": "Nom",

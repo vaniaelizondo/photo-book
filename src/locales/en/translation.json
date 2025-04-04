@@ -48,56 +48,101 @@
     "contact": "Contact",
     "mail_subject": "I%20saw%20your%20webpage&body=Hi!%0D%0A%0D%0AI%20would%20love%20to%20contact%20you!"
   },
-  "cv": {
-    "2014_location": "Aix en Provence",
-    "2014_1": "Handi Fashion Passion runway Aix en Provence",
-    "2014_2": "Handi Fashion runway Aubagne",
-    "2014_3": "Angelo Photographer photoshoot",
-    "2014_4": "Ezra Designer photoshoot",
-    "2014_5": "Sarah Fafet photoshoot",
-    "2014_6": "October 2014: Becoming a model training",
-    "2014_7": "Permanent makeup campaign for Karen",
-    "2014_8": "Hair products campaign",
-    "2015_1": "Golden Pearl runway Marseille",
-    "2015_2": "1st runner-up Miss Conflent",
-    "2015_3": "Participation in Miss Roussillon",
-    "2015_4": "Marseille runway",
-    "2015_5": "Boconcept runway",
-    "2015_6": "Look & Style 66",
-    "2016_1": "Onway Agency Portugal",
-    "2016_2": "Arnaud Rizon photoshoot",
-    "2018_location": "Mexico",
-    "2018_1": "Hygge Models Agency Puebla",
-    "2018_2": "IMTA Training",
-    "2018_3": "Fashion school runway",
-    "2018_4": "Model for photography school",
-    "2019_1": "Nero Store Puebla campaign",
-    "2019_2": "Greygarden Cholula photoshoot",
-    "2019_3": "Andrea Golzarri photoshoot",
-    "2019_4": "Expotuboda",
-    "2019_5": "Adolfo Dominguez runway",
-    "2021_location": "France",
-    "2021_1": "Laura Benvenuti photoshoot Perpignan",
-    "2022_1": "Model for Laura Benvenuti workshop",
-    "2022_2": "KISS & Dye Hotel Roi Rene Aix en Provence",
-    "2022_3": "Spring of Creators Nice Hotel",
-    "2022_4": "Voguesbeach runway Les Pilotis Leucate",
-    "2022_5": "Collaboration with FAM school makeup project",
-    "2022_6": "Mister Universal",
-    "2022_7": "Wedding fair Nice",
-    "2023_1": "Pin-Up photoshoot Marc Cheruy",
-    "2023_2": "Wedding fair Menton",
-    "2023_3": "Spring of Creators Nice 109",
-    "2023_4": "K-Event photoshoot for Runway Atelier",
-    "2023_5": "Cannes runway (Its Reichart)",
-    "2023_6": "Underwater photoshoot",
-    "2023_7": "Drone video at the water’s surface",
-    "2023_8": "Studio test photoshoot Vincent shadows and lights",
-    "2024_1": "FAM school runway",
-    "2024_2": "Studio test photoshoot Vincent black background",
-    "2024_3": "Play Azur Medusa makeup project with Marc Cheruy",
-    "2024_4": "Monopole runway Cannes"
-  },
+  "cv": [
+    {
+      "year": 2014,
+      "location": "Aix en Provence",
+      "entries": [
+        "Handi Fashion Passion runway Aix en Provence",
+        "Handi Fashion runway Aubagne",
+        "Angelo Photographer photoshoot",
+        "Ezra Designer photoshoot",
+        "Sarah Fafet photoshoot",
+        "October 2014: Becoming a model training",
+        "Permanent makeup campaign for Karen",
+        "Hair products campaign"
+      ]
+    },
+    {
+      "year": 2015,
+      "entries": [
+        "Golden Pearl runway Marseille",
+        "1st runner-up Miss Conflent",
+        "Participation in Miss Roussillon",
+        "Marseille runway",
+        "Boconcept runway",
+        "Look & Style 66"
+      ]
+    },
+    {
+      "year": 2016,
+      "entries": [
+        "Onway Agency Portugal",
+        "Arnaud Rizon photoshoot"
+      ]
+    },
+    {
+      "year": 2018,
+      "location": "Mexico",
+      "entries": [
+        "Hygge Models Agency Puebla",
+        "IMTA Training",
+        "Fashion school runway",
+        "Model for photography school"
+      ]
+    },
+    {
+      "year": 2019,
+      "entries": [
+        "Nero Store Puebla campaign",
+        "Greygarden Cholula photoshoot",
+        "Andrea Golzarri photoshoot",
+        "Expotuboda",
+        "Adolfo Dominguez runway"
+      ]
+    },
+    {
+      "year": 2021,
+      "location": "France",
+      "entries": [
+        "Laura Benvenuti photoshoot Perpignan"
+      ]
+    },
+    {
+      "year": 2022,
+      "entries": [
+        "Model for Laura Benvenuti workshop",
+        "KISS & Dye Hotel Roi Rene Aix en Provence",
+        "Spring of Creators Nice Hotel",
+        "Voguesbeach runway Les Pilotis Leucate",
+        "Collaboration with FAM school makeup project",
+        "Mister Universal",
+        "Wedding fair Nice"
+      ]
+    },
+    {
+      "year": 2023,
+      "entries": [
+        "Pin-Up photoshoot Marc Cheruy",
+        "Wedding fair Menton",
+        "Spring of Creators Nice 109",
+        "K-Event photoshoot for Runway Atelier",
+        "Cannes runway (Its Reichart)",
+        "Underwater photoshoot",
+        "Drone video at the water’s surface",
+        "Studio test photoshoot Vincent shadows and lights"
+      ]
+    },
+    {
+      "year": 2024,
+      "entries": [
+        "FAM school runway",
+        "Studio test photoshoot Vincent black background",
+        "Play Azur Medusa makeup project with Marc Cheruy",
+        "Monopole runway Cannes"
+      ]
+    }
+  ],
   "contact": {
     "invalid_form": "Please fill out the required fields.",
     "name": "Name",

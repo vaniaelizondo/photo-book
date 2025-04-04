@@ -46,60 +46,105 @@
     "paragraph_3": "📌 No acepto proyectos que incluyan desnudos.",
     "paragraph_4": "Estoy a su disposición para discutir sus ideas y dar vida a sus proyectos. ¡No dude en contactarme!",
     "contact": "Contacto",
-    "mail_subject": "Vi%20tu%20página%20web&body=¡Hola!%0D%0A%0D%0AMe%20encantaría%20contactarte."
+    "mail_subject": "Vi%20tu%20página%20web&body=¡Hola!%0D%0A%0D%0AMe%20encantaría%20contactarte!"
   },
-  "cv": {
-    "2014_location": "Aix en Provence",
-    "2014_1": "Desfile Handi Fashion Passion Aix en Provence",
-    "2014_2": "Desfile Handi Fashion Aubagne",
-    "2014_3": "Sesión fotográfica con Angelo fotógrafo",
-    "2014_4": "Sesión fotográfica con Ezra diseñadora",
-    "2014_5": "Sesión fotográfica con Sarah Fafet",
-    "2014_6": "Octubre 2014: Formación para ser modelo",
-    "2014_7": "Campaña de maquillaje permanente para Karen",
-    "2014_8": "Campaña de productos para el cabello",
-    "2015_1": "Desfile La Perla Dorada Marsella",
-    "2015_2": "1ª finalista Miss Conflent",
-    "2015_3": "Participación en Miss Roussillon",
-    "2015_4": "Desfile en Marsella",
-    "2015_5": "Desfile Boconcept",
-    "2015_6": "Look & Style 66",
-    "2016_1": "Agencia Onway Portugal",
-    "2016_2": "Sesión fotográfica con Arnaud Rizon",
-    "2018_location": "México",
-    "2018_1": "Agencia Hygge Models Puebla",
-    "2018_2": "Formación IMTA",
-    "2018_3": "Desfile de escuela de moda",
-    "2018_4": "Modelo para escuela de fotografía",
-    "2019_1": "Campaña Nero Store Puebla",
-    "2019_2": "Sesión fotográfica Greygarden Cholula",
-    "2019_3": "Sesión fotográfica Andrea Golzarri",
-    "2019_4": "Expotuboda",
-    "2019_5": "Desfile Adolfo Dominguez",
-    "2021_location": "Francia",
-    "2021_1": "Sesión fotográfica Laura Benvenuti Perpiñán",
-    "2022_1": "Modelo para taller de Laura Benvenuti",
-    "2022_2": "KISS & Dye Hotel Roi Rene Aix en Provence",
-    "2022_3": "Primavera de los Creadores Nice Hotel",
-    "2022_4": "Desfile Voguesbeach Les Pilotis Leucate",
-    "2022_5": "Colaboración con escuela FAM proyecto de maquillaje",
-    "2022_6": "Mister Universal",
-    "2022_7": "Feria de bodas Niza",
-    "2023_1": "Sesión fotográfica Pin-Up Marc Cheruy",
-    "2023_2": "Feria de bodas Menton",
-    "2023_3": "Primavera de los Creadores Nice 109",
-    "2023_4": "Sesión fotográfica K-Event para Runway Atelier",
-    "2023_5": "Desfile en Cannes (Its Reichart)",
-    "2023_6": "Sesión fotográfica bajo el agua",
-    "2023_7": "Video con dron en la superficie del agua",
-    "2023_8": "Sesión fotográfica de prueba en estudio Vincent sombras y luces",
-    "2024_1": "Desfile escuela FAM",
-    "2024_2": "Sesión fotográfica de prueba en estudio Vincent fondo negro",
-    "2024_3": "Play Azur proyecto de maquillaje Medusa con Marc Cheruy",
-    "2024_4": "Desfile Monopole en Cannes"
-  },
+  "cv": [
+    {
+      "year": 2014,
+      "location": "Aix en Provence",
+      "entries": [
+        "Desfile Handi Fashion Passion Aix en Provence",
+        "Desfile Handi Fashion Aubagne",
+        "Sesión fotográfica con Angelo fotógrafo",
+        "Sesión fotográfica con Ezra diseñadora",
+        "Sesión fotográfica con Sarah Fafet",
+        "Octubre 2014: Formación para ser modelo",
+        "Campaña de maquillaje permanente para Karen",
+        "Campaña de productos para el cabello"
+      ]
+    },
+    {
+      "year": 2015,
+      "entries": [
+        "Desfile La Perla Dorada Marsella",
+        "1ª finalista Miss Conflent",
+        "Participación en Miss Roussillon",
+        "Desfile en Marsella",
+        "Desfile Boconcept",
+        "Look & Style 66"
+      ]
+    },
+    {
+      "year": 2016,
+      "entries": [
+        "Agencia Onway Portugal",
+        "Sesión fotográfica con Arnaud Rizon"
+      ]
+    },
+    {
+      "year": 2018,
+      "location": "México",
+      "entries": [
+        "Agencia Hygge Models Puebla",
+        "Formación IMTA",
+        "Desfile de escuela de moda",
+        "Modelo para escuela de fotografía"
+      ]
+    },
+    {
+      "year": 2019,
+      "entries": [
+        "Campaña Nero Store Puebla",
+        "Sesión fotográfica Greygarden Cholula",
+        "Sesión fotográfica Andrea Golzarri",
+        "Expotuboda",
+        "Desfile Adolfo Dominguez"
+      ]
+    },
+    {
+      "year": 2021,
+      "location": "Francia",
+      "entries": [
+        "Sesión fotográfica Laura Benvenuti Perpiñán"
+      ]
+    },
+    {
+      "year": 2022,
+      "entries": [
+        "Modelo para taller de Laura Benvenuti",
+        "KISS & Dye Hotel Roi Rene Aix en Provence",
+        "Primavera de los Creadores Nice Hotel",
+        "Desfile Voguesbeach Les Pilotis Leucate",
+        "Colaboración con escuela FAM proyecto de maquillaje",
+        "Mister Universal",
+        "Feria de bodas Niza"
+      ]
+    },
+    {
+      "year": 2023,
+      "entries": [
+        "Sesión fotográfica Pin-Up Marc Cheruy",
+        "Feria de bodas Menton",
+        "Primavera de los Creadores Nice 109",
+        "Sesión fotográfica K-Event para Runway Atelier",
+        "Desfile en Cannes (Its Reichart)",
+        "Sesión fotográfica bajo el agua",
+        "Video con dron en la superficie del agua",
+        "Sesión fotográfica de prueba en estudio Vincent sombras y luces"
+      ]
+    },
+    {
+      "year": 2024,
+      "entries": [
+        "Desfile escuela FAM",
+        "Sesión fotográfica de prueba en estudio Vincent fondo negro",
+        "Play Azur proyecto de maquillaje Medusa con Marc Cheruy",
+        "Desfile Monopole en Cannes"
+      ]
+    }
+  ],
   "contact": {
-    "invalid_form": "Please fill out the required fields.",
+    "invalid_form": "Por favor, complete los campos requeridos.",
     "name": "Nombre",
     "company": "Empresa",
     "email": "Correo",
@@ -107,10 +152,10 @@
     "phone": "Teléfono",
     "message": "Mensaje",
     "submit": "Enviar",
-    "success_message": "Mensaje enviado con éxito!",
+    "success_message": "¡Mensaje enviado con éxito!",
     "error_message": "Hubo un error. Favor de intentar más tarde"
   },
   "footer": {
-    "mail_subject": "Vi%20tu%20página%20web&body=¡Hola!%0D%0A%0D%0AMe%20encantaría%20contactarte."
+    "mail_subject": "Vi%20tu%20página%20web&body=¡Hola!%0D%0A%0D%0AMe%20encantaría%20contactarte!"
   }
 }
